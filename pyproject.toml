@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "smartsuite-rag"
+version = "0.1.0"
+description = ""
+authors = ["Jorge Landaeta <dev.jorge2003@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.19"
+langchain-openai = "^0.3.7"
+langchain-deepseek = "^0.1.2"
+chromadb = "^0.6.3"
+pytelegrambotapi = "^4.26.0"
+colorama = "^0.4.6"
+logging = "^0.4.9.6"
+
+[tool.poetry.scripts]
+smartsuite-rag = "smartsuite_rag.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
