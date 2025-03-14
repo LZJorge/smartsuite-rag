@@ -27,7 +27,7 @@ SmartSuite RAG is a sophisticated Retrieval-Augmented Generation (RAG) system de
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/smartsuite-rag.git
+   git clone https://github.com/LZJorge/smartsuite-rag.git
    cd smartsuite-rag
    ```
 
@@ -40,6 +40,9 @@ SmartSuite RAG is a sophisticated Retrieval-Augmented Generation (RAG) system de
    ```sh
    BOT_TOKEN=your_telegram_bot_token
    OPENAI_API_KEY=your_openai_api_key
+
+   CHROMADB_HOST=localhost
+   CHROMADB_PORT=8000
    ```
 
 ### Usage
